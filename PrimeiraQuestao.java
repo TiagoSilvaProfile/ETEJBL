@@ -51,14 +51,14 @@ class PrimeiraQuestao {
                         switch (bipedes) {
                             case 1: {
                                 System.out.println("O animal informado é Onívoros?");
-                                System.out.println("1 - Sim\n2 - Não");
+                                System.out.println("1 - Sim\n0 - Não");
                                 onivoros = entrada.nextInt();
                                 switch (onivoros) {
                                     case 1: {
                                         System.out.println("O animal informado é o Homem");
                                         break;
                                     }
-                                    case 2: {
+                                    case 0: {
                                         System.out.println("O animal informado é o Macaco");
                                         break;
                                     }
